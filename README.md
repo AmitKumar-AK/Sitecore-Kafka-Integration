@@ -107,3 +107,10 @@ Using Cloudera.Kafka, we can Push the data to Kafka system using ProducerBuilder
 
 **[⬆ Back To Top](#sitecore-kafka-integration)**
 
+## License
+
+Copyright (c) 2021.
+
+Licensed under the [MIT](LICENSE.txt) license.
+
+**[⬆ Back To Top](#sitecore-kafka-integration)**
