@@ -9,6 +9,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/amitkumar-ak/sitecore-kafka-integration.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/amitkumar-ak/sitecore-kafka-integration/stargazers/)
 
 # Sitecore Kafka Integration
+ <img src="images/Sitecore-Kafka-Integration.PNG" style="max-width:100%;">
 Sitecore and Kafka Integration using ASP.NET MVC Application.
 
 We can integrate Sitecore with Kafka using .NET Connectors. I will be using Cloudera .NET client library for Apache Kafka called [**Cloudera.Kafka**](https://docs.cloudera.com/runtime/7.2.8/kafka-developing-applications/topics/kafka-develop-dotnet.html).
