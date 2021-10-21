@@ -39,7 +39,7 @@ Using Cloudera.Kafka, we can Push the data to Kafka system using ProducerBuilder
                 ); 
 ```
 
-**[⬆ back to top](#sitecore-kafka-integration)**
+**[⬆ Back To Top](#sitecore-kafka-integration)**
 
 > - **\Sitecore-Kafka-Integration\KafkaIntegrationSite\KafkaIntegrationSite\Controllers\KafkaController.cs >** `PullFromKafka` **Function :-** 
 ```csharp
@@ -60,4 +60,10 @@ Using Cloudera.Kafka, we can Push the data to Kafka system using ProducerBuilder
                 }
                 );
 ```
+**[⬆ Back To Top](#sitecore-kafka-integration)**
 
+## Output
+
+- Once you `RUN` the application, you will land into the `HOME` page:
+   
+- You can `PUSH` the message to the `Kafka` topic:
