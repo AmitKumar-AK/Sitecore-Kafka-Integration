@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1267
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KafkaIntegration", "KafkaIntegration", "{A9E86431-4FEF-4991-8F7A-D4555BB3540F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{FA9046EE-B50B-4F0F-8BF2-4837B0825F7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CT.SC.Foundation.Kafka", "KafkaIntegrationSite\Foundation\KafkaIntegration\code\CT.SC.Foundation.Kafka.csproj", "{DE47C04C-EB43-43A7-9217-96CEE81B915A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KafkaIntegrationSite", "KafkaIntegrationSite", "{707E2AD7-3386-4CA0-A6C5-9F3BD38E3BCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaIntegrationSite", "KafkaIntegrationSite\KafkaIntegrationSite.csproj", "{5B74ED90-3303-4677-90FB-13D43138936D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE47C04C-EB43-43A7-9217-96CEE81B915A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE47C04C-EB43-43A7-9217-96CEE81B915A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE47C04C-EB43-43A7-9217-96CEE81B915A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE47C04C-EB43-43A7-9217-96CEE81B915A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B74ED90-3303-4677-90FB-13D43138936D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B74ED90-3303-4677-90FB-13D43138936D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B74ED90-3303-4677-90FB-13D43138936D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B74ED90-3303-4677-90FB-13D43138936D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9E86431-4FEF-4991-8F7A-D4555BB3540F} = {FA9046EE-B50B-4F0F-8BF2-4837B0825F7E}
+		{DE47C04C-EB43-43A7-9217-96CEE81B915A} = {A9E86431-4FEF-4991-8F7A-D4555BB3540F}
+		{5B74ED90-3303-4677-90FB-13D43138936D} = {707E2AD7-3386-4CA0-A6C5-9F3BD38E3BCB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B91CC51C-8C66-4289-A91E-4EBE190805A2}
+	EndGlobalSection
+EndGlobal

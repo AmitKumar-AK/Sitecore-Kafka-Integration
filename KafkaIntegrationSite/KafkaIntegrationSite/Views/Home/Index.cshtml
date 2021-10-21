@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Sitecore + Kafka Integration</h1>
+    <p class="lead">This example will explain Kafka integration with ASP.NET MVC.</p>
+    <p><a href="https://kafka.apache.org/intro#intro_platform" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+<div class="row">
+    <div class="col-md-6 alert alert-success" id="divSuccess" role="alert" style="display:none;">
+    </div>
+    <div class="col-md-6 alert alert-danger" id="divError" role="alert" style="display:none;">
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <h2>Set Kafka Topic</h2>
+        <p>
+            <div>
+                <div class="form-group">
+                    <label>Topic Name:</label>
+                    <input type="text" class="form-control" id="txtTopicName">
+                </div>
+                <div class="form-group">
+                    <label>Message Value:</label>
+                    <input type="text" class="form-control" id="txtMessage">
+                </div>
+            </div>
+            <div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col" colspan="3">Kafka Operations</th>
+                        </tr>
+                    </thead>
+                    <thead>
+                        <tr>
+                            <th scope="col"><button type="submit" class="btn btn-primary" onclick="javascrit:CT.component.kafkaintegration.pushitemtokafka('txtTopicName','txtMessage')">Push to Kafka</button></th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </p>
+
+    </div>
+    <div class="col-md-4">
+        <h2>Get Kafka Topic</h2>
+        <p>
+            <div>
+                <div class="form-group">
+                    <label>Topic Name:</label>
+                    <input type="text" class="form-control" id="txtCTopicName">
+                </div>
+                <div class="form-group">
+                    <label>Group ID:</label>
+                    <input type="text" class="form-control" id="txtCGroupId">
+                </div>
+            </div>
+            <div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col" colspan="3">Kafka Operations</th>
+                        </tr>
+                    </thead>
+                    <thead>
+                        <tr>
+                            <th scope="col"><button type="submit" class="btn btn-success" onclick="javascrit:CT.component.kafkaintegration.pullitemfromkafka('txtCTopicName','txtCGroupId')">Pull from Kafka</button></th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </p>
+
+    </div>
+</div>
