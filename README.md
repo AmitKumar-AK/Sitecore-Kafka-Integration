@@ -64,6 +64,46 @@ Using Cloudera.Kafka, we can Push the data to Kafka system using ProducerBuilder
 
 ## Output
 
+### Landing Page
 - Once you `RUN` the application, you will land into the `HOME` page:
+   <img src="images/Sitecore-Kafka-Integration-HomePage.PNG" style="max-width:100%;">
    
+   **[⬆ Back To Top](#sitecore-kafka-integration)**
+   
+### Push message from Sitecore to Kafka   
 - You can `PUSH` the message to the `Kafka` topic:
+   <img src="images/Sitecore-Kafka-Integration-Produce-Message-1.PNG" width="800" height="700" style="max-width:100%;">
+   
+**[⬆ Back To Top](#sitecore-kafka-integration)**
+
+   > Once user click on the `Push to Kafka`, user will see `Please Wait` screen:
+   <img src="images/Sitecore-Kafka-Integration-PleaseWait.PNG" style="max-width:100%;">
+
+**[⬆ Back To Top](#sitecore-kafka-integration)**
+
+   > After successful `Push` user will see `Scuccess` message:
+   <img src="images/Sitecore-Kafka-Integration-Produce-Message-Added.PNG" style="max-width:100%;">
+
+**[⬆ Back To Top](#sitecore-kafka-integration)**
+   
+### Pull message from Kafka to Sitecore  
+- You can `PULL` the message from `Kafka` topic:
+   <img src="images/Sitecore-Kafka-Integration-Consume-Message-1.PNG" style="max-width:100%;">
+   
+**[⬆ Back To Top](#sitecore-kafka-integration)**
+
+   > Once user click on the `Pull from Kafka`, user will see `Please Wait` screen:
+   <img src="images/Sitecore-Kafka-Integration-PleaseWait.PNG" style="max-width:100%;">
+
+**[⬆ Back To Top](#sitecore-kafka-integration)**
+
+   > If `Messages` not present in `Kafka Topic` user will see `Error` message:
+   <img src="images/Sitecore-Kafka-Integration-Consume-Message-Not-Present.PNG" style="max-width:100%;">
+
+**[⬆ Back To Top](#sitecore-kafka-integration)**
+
+   > If `Messages` present in `Kafka Topic` user will see `Success` message with details:
+   <img src="images/Sitecore-Kafka-Integration-Consume-Message-Present.PNG" style="max-width:100%;">
+
+**[⬆ Back To Top](#sitecore-kafka-integration)**
+
