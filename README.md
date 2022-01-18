@@ -3,6 +3,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/amitkumar-ak/sitecore-kafka-integration.svg)](https://GitHub.com/amitkumar-ak/sitecore-kafka-integration/issues/)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/amitkumar-ak/sitecore-kafka-integration.svg)](https://GitHub.com/amitkumar-ak/sitecore-kafka-integration/pulls/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Visits Badge](https://badges.pufler.dev/visits/AmitKumar-AK/Sitecore-Kafka-Integration)](https://badges.pufler.dev)
 
 [![GitHub watchers](https://img.shields.io/github/watchers/amitkumar-ak/sitecore-kafka-integration.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/amitkumar-ak/sitecore-kafka-integration/watchers/)
 [![GitHub forks](https://img.shields.io/github/forks/amitkumar-ak/sitecore-kafka-integration.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/amitkumar-ak/sitecore-kafka-integration/network/)
